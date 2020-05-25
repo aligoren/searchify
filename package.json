@@ -1,0 +1,30 @@
+{
+  "name": "searchify",
+  "version": "1.0.0",
+  "description": "Searchable link generator for Google, Yandex, Bing or custom addresses.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --detectOpenHandles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aligoren/searchify.git"
+  },
+  "keywords": [
+    "searchify",
+    "google",
+    "yandex",
+    "bing",
+    "yahoo",
+    "search"
+  ],
+  "author": "Ali GOREN",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/aligoren/searchify/issues"
+  },
+  "homepage": "https://github.com/aligoren/searchify#readme",
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
+}
