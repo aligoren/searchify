@@ -25,7 +25,7 @@ Type: `string|Array`
 
 Type: `object`
 
-```json
+```js
 {
     'type': 'vendor', // vendor | custom
     'vendor': 'google', // this works when type is vendor
