@@ -7,27 +7,27 @@ const vendors = {
     'google': {
         'qs': 'search?q=',
         'default': 'www.google.com',
-        'list': { ...google }
+        'list': google
     },
     'yandex': {
         'qs': 'search/?text=',
         'default': 'www.yandex.com',
-        'list': { ...yandex }
+        'list': yandex
     },
     'yahoo': {
         'qs': 'search?fr2=sb-top-search&p=',
         'default': 'search.yahoo.com',
-        'list': { ...yahoo }
+        'list': yahoo
     },
     'bing': {
         'qs': 'search?q=',
         'default': 'www.bing.com',
-        'list': { ...bing }
+        'list': bing
     }
 }
 
-const getTldByVendor = (vendor) => {
-    return vendors[vendor] || vendors['google']
+const getTldByVendor = (vendor = 'google') => {
+    return vendors[vendor]
 }
 
 module.exports = {
